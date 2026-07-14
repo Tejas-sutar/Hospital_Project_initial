@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // import { Routes } from 'express'
 import {Home} from './pages/home.jsx'
 import { Input } from './componenets/input.jsx'
+import { Createuser } from './pages/Createuser.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <div>
         <Routes>
             <Route path='/' element={ <Home /> } />
+            <Route path='/Createuser' element={ <Createuser /> } />
 
         </Routes>
       </div>

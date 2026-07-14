@@ -9,7 +9,7 @@ const router = express.Router()
 router.post('/create',createPatient)
 router.get('/get/:id',getuniquepatient)
 router.get('/getAll',getallPatients)
-router.put('/remove/:id',removePatient)
+router.delete('/remove/:id',removePatient)
 
 
 export default router
